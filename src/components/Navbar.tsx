@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="font-heading text-2xl font-semibold text-foreground">
-            loge
+            Arunadevi
           </a>
 
           {/* Desktop Navigation */}

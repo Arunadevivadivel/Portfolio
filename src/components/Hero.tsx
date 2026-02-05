@@ -2,12 +2,10 @@ import { Star } from "lucide-react";
 import profileImage from "@/assets/profile-hero.jpg";
 
 const brands = [
-  { name: "Lenovo", logo: "Lenovo" },
-  { name: "Slack", logo: "Slack" },
-  { name: "YouTube", logo: "YouTube" },
-  { name: "Amazon", logo: "amazon" },
-  { name: "Google", logo: "Google" },
-  { name: "Microsoft", logo: "Microsoft" },
+  { name: "Client A", logo: "Client A" },
+  { name: "Client B", logo: "Client B" },
+  { name: "Startup X", logo: "Startup X" },
+  { name: "Product Y", logo: "Product Y" },
 ];
 
 const Hero = () => {
@@ -19,11 +17,13 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <span className="section-label mb-4 block">Portfolio</span>
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.1] mb-6">
-              Loujain<br />Muhammed
+              Arunadevi—<br />UI/UX Designer
             </h1>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6 max-w-lg">
-              Welcome to Designing where innovation knows no bounds. With a passion for pushing the 
-              boundaries of UI/UX design.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-4 max-w-lg">
+              Welcome to my creative space! I'm a passionate UI/UX designer with a love for transforming ideas into beautiful, user-centered digital experiences.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-6 max-w-lg">
+              I specialize in designing intuitive and engaging interfaces using tools like Wix Studio, Figma, Canva, and Gemini AI Studio. My goal is to bring clarity, functionality, and visual elegance to every project I work on.
             </p>
             <div className="inline-flex items-center gap-3 px-5 py-2.5 border border-border rounded-lg mb-8">
               <span className="font-heading text-lg font-medium">UI-UX Designer</span>
@@ -43,7 +43,7 @@ const Hero = () => {
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-card shadow-elevated">
                 <img
                   src={profileImage}
-                  alt="Loujain Muhammed - UI/UX Designer"
+                  alt="Arunadevi - UI/UX Designer"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -65,8 +65,8 @@ const Hero = () => {
 
         {/* Trusted By Section */}
         <div className="mt-20 pt-12 border-t border-border/50">
-          <p className="text-sm text-muted-foreground mb-8">
-            <span className="font-medium text-foreground">+32</span> satisfied clients
+          <p className="text-sm text-muted-foreground mb-8 max-w-md">
+            Trusted by top clients and brands for delivering user-focused design solutions.
           </p>
           <div className="flex flex-wrap items-center gap-8 md:gap-12">
             {brands.map((brand) => (

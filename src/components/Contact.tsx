@@ -1,9 +1,10 @@
 import { useState } from "react";
 
 const socialLinks = [
-  { name: "Dribbble", href: "#" },
-  { name: "Behance", href: "#" },
   { name: "Instagram", href: "#" },
+  { name: "LinkedIn", href: "#" },
+  { name: "Behance", href: "#" },
+  { name: "Dribbble", href: "#" },
 ];
 
 const Contact = () => {
@@ -41,8 +42,7 @@ const Contact = () => {
           {/* Left - Info */}
           <div>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-md">
-              Have a question, feedback, or interested in collaborating? 
-              We'd love to hear from you!
+              Have a question, proposal, or collaboration idea? I'd love to hear from you!
             </p>
             
             {/* Social Links */}

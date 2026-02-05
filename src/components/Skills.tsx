@@ -1,10 +1,10 @@
 const skills = [
+  { name: "Wix Studio", icon: "W", color: "bg-gradient-to-br from-blue-100 to-indigo-100" },
   { name: "Figma", icon: "𝔽", color: "bg-gradient-to-br from-pink-100 to-purple-100" },
-  { name: "Xd", icon: "Xd", color: "bg-gradient-to-br from-pink-200 to-pink-100" },
-  { name: "Ae effects", icon: "Ae", color: "bg-gradient-to-br from-violet-200 to-violet-100" },
-  { name: "Photoshop", icon: "Ps", color: "bg-gradient-to-br from-blue-200 to-blue-100" },
-  { name: "html5", icon: "< >", color: "bg-gradient-to-br from-orange-200 to-orange-100" },
-  { name: "Css3", icon: "{ }", color: "bg-gradient-to-br from-blue-300 to-blue-100" },
+  { name: "Canva", icon: "C", color: "bg-gradient-to-br from-cyan-100 to-teal-100" },
+  { name: "Gemini AI Studio", icon: "✦", color: "bg-gradient-to-br from-violet-200 to-violet-100" },
+  { name: "Prototyping", icon: "◇", color: "bg-gradient-to-br from-orange-200 to-orange-100" },
+  { name: "Responsive UI", icon: "⚏", color: "bg-gradient-to-br from-green-200 to-green-100" },
 ];
 
 const Skills = () => {
@@ -35,6 +35,11 @@ const Skills = () => {
             </div>
           ))}
         </div>
+
+        {/* Note */}
+        <p className="mt-10 text-center text-muted-foreground max-w-xl mx-auto">
+          I blend creative thinking with strategic design to craft experiences that both delight users and solve real problems.
+        </p>
       </div>
     </section>
   );

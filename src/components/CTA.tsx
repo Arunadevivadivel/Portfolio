@@ -9,9 +9,12 @@ const CTA = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center">
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-8">
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
             Let's Get In Touch
           </h2>
+          <p className="text-primary-foreground/80 mb-8 max-w-md mx-auto">
+            Have a project idea, question, or feedback? I'd love to connect!
+          </p>
           <a
             href="#contact"
             className="inline-block px-8 py-4 bg-primary-foreground text-primary rounded-full font-medium transition-all duration-300 hover:opacity-90 hover:scale-105 shadow-elevated"

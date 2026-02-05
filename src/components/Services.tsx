@@ -3,29 +3,28 @@ import servicesImage from "@/assets/services-workspace.jpg";
 const services = [
   {
     number: "01",
-    title: "User Experience (UX)",
-    description: "A skilled UI/UX designer understands the significance of both UI (UI) focuses of both UI...",
-    features: ["Research", "Analysis", "Design"],
+    title: "User Experience (UX) Design",
+    description: "Crafting intuitive, user-first flows that make interactions feel natural and delightful.",
   },
   {
     number: "02",
-    title: "Front-End Development",
-    description: "Building responsive, performant web interfaces with modern technologies.",
+    title: "User Interface (UI) Design",
+    description: "Clean, modern visuals that leave a lasting impression — optimized for web and mobile.",
   },
   {
     number: "03",
-    title: "User Experience (UX)",
-    description: "Creating intuitive user flows and seamless experiences.",
+    title: "Website Design Using Wix Studio",
+    description: "Custom, responsive websites built on Wix Studio with attention to UX fundamentals.",
   },
   {
     number: "04",
-    title: "Website Optimization",
-    description: "Improving site performance, SEO, and user engagement metrics.",
+    title: "Prototyping & UX Testing",
+    description: "Figma and Canva prototypes to validate ideas and shape final design decisions.",
   },
   {
     number: "05",
-    title: "User Interface (UI) Design",
-    description: "Crafting beautiful, accessible, and consistent visual designs.",
+    title: "AI-Assisted Design + Tools",
+    description: "Leveraging Gemini AI Studio for smarter ideation and rapid UX iteration.",
   },
 ];
 
@@ -77,18 +76,9 @@ const Services = () => {
                       <span className="text-muted-foreground">—</span>
                       {service.title}
                     </h3>
-                    {service.features && (
-                      <div className="flex flex-wrap gap-2 mt-3">
-                        {service.features.map((feature) => (
-                          <span
-                            key={feature}
-                            className="text-xs px-3 py-1 bg-secondary rounded-full text-muted-foreground"
-                          >
-                            • {feature}
-                          </span>
-                        ))}
-                      </div>
-                    )}
+                    <p className="text-sm text-muted-foreground">
+                      {service.description}
+                    </p>
                   </div>
                 </div>
               </div>

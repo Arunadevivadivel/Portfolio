@@ -1,15 +1,13 @@
 const footerLinks = [
-  { name: "Terms", href: "#" },
   { name: "Privacy", href: "#" },
-  { name: "Policy", href: "#" },
-  { name: "Rules", href: "#" },
-  { name: "Maps", href: "#" },
+  { name: "Terms", href: "#" },
+  { name: "Sitemap", href: "#" },
 ];
 
 const socialLinks = [
-  { name: "X", href: "#" },
-  { name: "Fb", href: "#" },
-  { name: "Li", href: "#" },
+  { name: "In", href: "#" },
+  { name: "Be", href: "#" },
+  { name: "Dr", href: "#" },
 ];
 
 const Footer = () => {
@@ -19,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
-            © 2024 Your Designer. All rights reserved.
+            © 2026 Arunadevi. All rights reserved.
           </p>
 
           {/* Links */}

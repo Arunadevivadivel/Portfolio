@@ -1,16 +1,20 @@
 import { Star } from "lucide-react";
 import profileImage from "@/assets/profile-hero.jpg";
-
-const brands = [
-  { name: "Client A", logo: "Client A" },
-  { name: "Client B", logo: "Client B" },
-  { name: "Startup X", logo: "Startup X" },
-  { name: "Product Y", logo: "Product Y" },
-];
-
+const brands = [{
+  name: "Client A",
+  logo: "Client A"
+}, {
+  name: "Client B",
+  logo: "Client B"
+}, {
+  name: "Startup X",
+  logo: "Startup X"
+}, {
+  name: "Product Y",
+  logo: "Product Y"
+}];
 const Hero = () => {
-  return (
-    <section id="home" className="pt-32 pb-20 md:pt-40 md:pb-28">
+  return <section id="home" className="pt-32 pb-20 md:pt-40 md:pb-28">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}
@@ -41,19 +45,13 @@ const Hero = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto lg:ml-auto lg:mr-0">
               {/* Profile Image */}
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-card shadow-elevated">
-                <img
-                  src={profileImage}
-                  alt="Arunadevi - UI/UX Designer"
-                  className="w-full h-full object-cover"
-                />
+                <img alt="Arunadevi - UI/UX Designer" className="w-full h-full object-cover" src="/lovable-uploads/e750433d-619e-4303-90fd-fbaa46cf9105.jpg" />
               </div>
               
               {/* Floating Review Badge */}
               <div className="absolute -bottom-4 -left-4 md:-left-8 bg-card rounded-2xl p-4 shadow-card animate-float">
                 <div className="flex items-center gap-2 mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={12} className="fill-amber-400 text-amber-400" />
-                  ))}
+                  {[...Array(5)].map((_, i) => <Star key={i} size={12} className="fill-amber-400 text-amber-400" />)}
                 </div>
                 <p className="text-xs text-muted-foreground max-w-[140px]">
                   "Verified and reliable for best design work"
@@ -69,19 +67,12 @@ const Hero = () => {
             Trusted by top clients and brands for delivering user-focused design solutions.
           </p>
           <div className="flex flex-wrap items-center gap-8 md:gap-12">
-            {brands.map((brand) => (
-              <span
-                key={brand.name}
-                className="text-muted-foreground/60 font-medium text-lg tracking-wide hover:text-foreground transition-colors"
-              >
+            {brands.map(brand => <span key={brand.name} className="text-muted-foreground/60 font-medium text-lg tracking-wide hover:text-foreground transition-colors">
                 {brand.logo}
-              </span>
-            ))}
+              </span>)}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

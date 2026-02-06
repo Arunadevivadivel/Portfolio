@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import ecommerceImg from "@/assets/project-ecommerce.png";
-import fashionImg from "@/assets/project-fashion.jpg";
+import fitnessImg from "@/assets/project-fitness.png";
 import realEstateImg from "@/assets/project-realestate.jpg";
 import managementImg from "@/assets/project-management.jpg";
 import petImg from "@/assets/project-pet.jpg";
@@ -16,7 +16,7 @@ const projects = [
     id: "02",
     title: "Fitness App Concept",
     tags: ["Mobile UX", "Visual Design"],
-    image: fashionImg,
+    image: fitnessImg,
   },
   {
     id: "03",
@@ -34,7 +34,7 @@ const projects = [
     id: "05",
     title: "Fashion App UI",
     tags: ["UX Wireframes", "Hi-Fi Prototype"],
-    image: fashionImg,
+    image: fitnessImg,
   },
   {
     id: "06",

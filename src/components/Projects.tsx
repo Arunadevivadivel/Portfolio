@@ -8,7 +8,7 @@ import petImg from "@/assets/project-pet.jpg";
 const projects = [
   {
     id: "01",
-    title: "E-Commerce UI Redesign",
+    title: "AI Chatbot Automation Website",
     tags: ["UI/UX", "Product Design"],
     image: ecommerceImg,
   },

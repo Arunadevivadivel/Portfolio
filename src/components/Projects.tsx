@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import portfolioImg from "@/assets/project-portfolio.jpg";
+import ecommerceImg from "@/assets/project-ecommerce.png";
 import fashionImg from "@/assets/project-fashion.jpg";
 import realEstateImg from "@/assets/project-realestate.jpg";
 import managementImg from "@/assets/project-management.jpg";
@@ -10,7 +10,7 @@ const projects = [
     id: "01",
     title: "E-Commerce UI Redesign",
     tags: ["UI/UX", "Product Design"],
-    image: portfolioImg,
+    image: ecommerceImg,
   },
   {
     id: "02",

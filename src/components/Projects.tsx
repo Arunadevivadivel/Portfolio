@@ -1,7 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import ecommerceImg from "@/assets/project-ecommerce.png";
 import fitnessImg from "@/assets/project-fitness.png";
-import realEstateImg from "@/assets/project-realestate.jpg";
+import realEstateImg from "@/assets/project-realestate.png";
 import managementImg from "@/assets/project-management.jpg";
 import petImg from "@/assets/project-pet.jpg";
 

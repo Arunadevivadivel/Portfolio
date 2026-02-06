@@ -26,7 +26,7 @@ const projects = [
   },
   {
     id: "04",
-    title: "Management Dashboard",
+    title: "HRMS Dashboard",
     tags: ["UX Strategy", "Interaction Design"],
     image: managementImg,
   },

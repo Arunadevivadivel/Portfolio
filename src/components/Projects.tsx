@@ -14,7 +14,7 @@ const projects = [
   },
   {
     id: "02",
-    title: "Pet Vaccination Tracking Mobile App",
+    title: "Pet Vaccination Tracking",
     tags: ["Mobile UX", "Visual Design"],
     image: fitnessImg,
   },

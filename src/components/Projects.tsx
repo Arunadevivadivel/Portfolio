@@ -20,7 +20,7 @@ const projects = [
   },
   {
     id: "03",
-    title: "Real Estate Web App",
+    title: "AI-Powered Call Analyzer",
     tags: ["UI Design", "Responsive Layout"],
     image: realEstateImg,
   },

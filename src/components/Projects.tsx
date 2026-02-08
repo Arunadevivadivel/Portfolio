@@ -3,6 +3,7 @@ import ecommerceImg from "@/assets/project-ecommerce.png";
 import fitnessImg from "@/assets/project-fitness.png";
 import realEstateImg from "@/assets/project-realestate.png";
 import managementImg from "@/assets/project-management.png";
+import fashionImg from "@/assets/project-fashion.png";
 import petImg from "@/assets/project-pet.jpg";
 
 const projects = [
@@ -34,7 +35,7 @@ const projects = [
     id: "05",
     title: "Fashion App UI",
     tags: ["UX Wireframes", "Hi-Fi Prototype"],
-    image: fitnessImg,
+    image: fashionImg,
   },
   {
     id: "06",

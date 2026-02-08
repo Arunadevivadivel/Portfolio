@@ -47,7 +47,7 @@ const projects = [
     title: "Pet Care Service App",
     tags: ["User Flow", "UI/UX Design"],
     image: petImg,
-    link: "",
+    link: "https://www.esgityadvisors.com/",
   },
 ];
 

@@ -4,7 +4,7 @@ import fitnessImg from "@/assets/project-fitness.png";
 import realEstateImg from "@/assets/project-realestate.png";
 import managementImg from "@/assets/project-management.png";
 import fashionImg from "@/assets/project-fashion.png";
-import petImg from "@/assets/project-pet.jpg";
+import petImg from "@/assets/project-pet.png";
 
 const projects = [
   {

@@ -33,7 +33,7 @@ const projects = [
   },
   {
     id: "05",
-    title: "Fashion App UI",
+    title: "CONSTRUCTION WEBSITE",
     tags: ["UX Wireframes", "Hi-Fi Prototype"],
     image: fashionImg,
   },

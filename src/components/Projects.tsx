@@ -44,7 +44,7 @@ const projects = [
   },
   {
     id: "06",
-    title: "Pet Care Service App",
+    title: "Sustainability Services",
     tags: ["User Flow", "UI/UX Design"],
     image: petImg,
     link: "https://www.esgityadvisors.com/",

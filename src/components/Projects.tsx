@@ -44,7 +44,7 @@ const projects = [
   },
   {
     id: "06",
-    title: "Sustainability Services",
+    title: "Sustainability Services web",
     tags: ["User Flow", "UI/UX Design"],
     image: petImg,
     link: "https://www.esgityadvisors.com/",

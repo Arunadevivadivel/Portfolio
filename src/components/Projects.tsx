@@ -33,7 +33,7 @@ const projects = [
     title: "HRMS Dashboard",
     tags: ["UX Strategy", "Interaction Design"],
     image: managementImg,
-    link: "",
+    link: "https://www.figma.com/design/qFeT7MGHUK0vaF4ARZUkag/HRMS-WEB-APPLICATION?node-id=0-1&t=6Y8fPG39Q01D7RAg-1",
   },
   {
     id: "05",

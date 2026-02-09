@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: "05",
-    title: "CONSTRUCTION WEBSITE",
+    title: "Construction Website",
     tags: ["UX Wireframes", "Hi-Fi Prototype"],
     image: fashionImg,
     link: "https://www.klvinteriors.com/",

@@ -19,7 +19,7 @@ const projects = [
     title: "Pet Vaccination Tracking",
     tags: ["Mobile UX", "Visual Design"],
     image: fitnessImg,
-    link: "",
+    link: "https://www.figma.com/design/Ax3q3hgKnZEgGhPvlqlIwV/Veterinary-doctors?node-id=0-1&t=TNubuBOuwy7lHFDf-1",
   },
   {
     id: "03",

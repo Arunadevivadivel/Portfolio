@@ -26,7 +26,7 @@ const projects = [
     title: "AI-Powered Call Analyzer",
     tags: ["UI Design", "Responsive Layout"],
     image: realEstateImg,
-    link: "",
+    link: "https://www.figma.com/design/suSUDG39PstmvTlDCsRSHG/AI-Powered-Call-Analyzer?node-id=560-3&t=0zhGQOevWUYUbd7W-1",
   },
   {
     id: "04",

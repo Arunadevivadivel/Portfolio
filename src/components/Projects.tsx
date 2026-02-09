@@ -12,7 +12,7 @@ const projects = [
     title: "AI Chatbot Automation Website",
     tags: ["UI/UX", "Product Design"],
     image: ecommerceImg,
-    link: "",
+    link: "https://www.figma.com/design/FLqokS3IOrDJcWwXgfVM2o/TheBotMate?node-id=0-1&t=mAgT3Fz8qoqUNT9b-1",
   },
   {
     id: "02",

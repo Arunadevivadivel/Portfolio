@@ -34,7 +34,7 @@ const Hero = () => {
               <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
             </div>
             <div className="flex flex-wrap gap-4">
-              <a href="#contact" className="btn-primary">
+              <a href="mailto:arunadevivadivel@gmail.com" className="btn-primary">
                 Become a Client
               </a>
             </div>

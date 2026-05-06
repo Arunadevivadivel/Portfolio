@@ -7,7 +7,7 @@ const navLinks = [
   { name: "Services", href: "#services" },
   { name: "Portfolio", href: "#portfolio" },
   
-  { name: "Contact", href: "mailto:arunadevivadivel@gmail.com" },
+  { name: "Contact", href: "#testimonials" },
 ];
 
 const Navbar = () => {

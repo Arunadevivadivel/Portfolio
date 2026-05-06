@@ -13,6 +13,20 @@ const navLinks = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      const target = document.querySelector(href) as HTMLElement | null;
+      if (target) {
+        const navHeight = 80;
+        const top = target.getBoundingClientRect().top + window.scrollY - navHeight;
+        window.scrollTo({ top, behavior: "smooth" });
+        history.replaceState(null, "", href);
+      }
+      setIsOpen(false);
+    }
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6">
@@ -28,6 +42,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
               >
                 {link.name}
@@ -61,7 +76,10 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => {
+                    handleNavClick(e, link.href);
+                    setIsOpen(false);
+                  }}
                 >
                   {link.name}
                 </a>

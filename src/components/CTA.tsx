@@ -16,7 +16,7 @@ const CTA = () => {
             Have a project idea, question, or feedback? I'd love to connect!
           </p>
           <a
-            href="#contact"
+            href="mailto:arunadevivadivel@gmail.com"
             className="inline-block px-8 py-4 bg-primary-foreground text-primary rounded-full font-medium transition-all duration-300 hover:opacity-90 hover:scale-105 shadow-elevated"
           >
             Become a Client

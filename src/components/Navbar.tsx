@@ -7,7 +7,7 @@ const navLinks = [
   { name: "Services", href: "#services" },
   { name: "Portfolio", href: "#portfolio" },
   { name: "Blog", href: "#blog" },
-  { name: "Contact", href: "#contact" },
+  { name: "Contact", href: "mailto:arunadevivadivel@gmail.com" },
 ];
 
 const Navbar = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <a href="#contact" className="btn-primary inline-block text-sm">
+            <a href="mailto:arunadevivadivel@gmail.com" className="btn-primary inline-block text-sm">
               Hire Me
             </a>
           </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <a href="#contact" className="btn-primary inline-block text-center mt-4" onClick={() => setIsOpen(false)}>
+              <a href="mailto:arunadevivadivel@gmail.com" className="btn-primary inline-block text-center mt-4" onClick={() => setIsOpen(false)}>
                 Hire Me
               </a>
             </div>

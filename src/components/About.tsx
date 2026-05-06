@@ -11,7 +11,7 @@ const experience = [
   {
     title: "UI/UX Designer – Full-Time",
     company: "Manovate Technology",
-    duration: "6 Months Full-Time Experience",
+    duration: "1 Year Full-Time Experience",
     description:
       "Worked on real-world projects involving web and mobile applications. Contributed to user research, UI design, prototyping, and design improvements while collaborating with developers and stakeholders.",
   },

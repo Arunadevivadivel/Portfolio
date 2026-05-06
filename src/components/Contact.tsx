@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const socialLinks = [
-  { name: "LinkedIn", href: "#" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/arunadevi-vadivel?" },
   { name: "Behance", href: "#" },
 ];
 

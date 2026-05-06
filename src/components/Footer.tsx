@@ -7,7 +7,6 @@ const footerLinks = [
 const socialLinks = [
   { name: "In", href: "#" },
   { name: "Be", href: "#" },
-  { name: "Dr", href: "#" },
 ];
 
 const Footer = () => {

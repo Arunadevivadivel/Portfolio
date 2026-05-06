@@ -56,7 +56,7 @@ const Contact = () => {
                     className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-sm font-medium hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
                     aria-label={social.name}
                   >
-                    {social.name.charAt(0)}
+                    {social.name === "Dribbble" ? "\u200bD" : social.name.charAt(0)}
                   </a>
                 ))}
               </div>

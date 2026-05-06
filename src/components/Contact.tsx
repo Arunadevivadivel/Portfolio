@@ -1,10 +1,8 @@
 import { useState } from "react";
 
 const socialLinks = [
-  { name: "Instagram", href: "#" },
   { name: "LinkedIn", href: "#" },
   { name: "Behance", href: "#" },
-  { name: "Dribbble", href: "#" },
 ];
 
 const Contact = () => {

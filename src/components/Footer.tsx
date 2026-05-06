@@ -6,7 +6,7 @@ const footerLinks = [
 
 const socialLinks = [
   { name: "In", href: "https://www.linkedin.com/in/arunadevi-vadivel?" },
-  { name: "Be", href: "#" },
+  { name: "Be", href: "https://www.behance.net/arunadevadivel" },
 ];
 
 const Footer = () => {
@@ -38,6 +38,8 @@ const Footer = () => {
               <a
                 key={social.name}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full border border-border flex items-center justify-center text-xs text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
                 aria-label={social.name}
               >

@@ -5,7 +5,7 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { name: "In", href: "#" },
+  { name: "In", href: "https://www.linkedin.com/in/arunadevi-vadivel?" },
   { name: "Be", href: "#" },
 ];
 

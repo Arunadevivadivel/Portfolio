@@ -39,13 +39,13 @@ const Hero = () => {
     Contact Me
   </a>
 
-  <a
-    href={resumePDF}
-    download="ARUNADEVI-UIUX.PDF(1)"
-    className="btn-secondary"
-  >
-    Download Resume
-  </a>
+ <a
+  href={resumePDF}
+  download="ARUNADEVI-UIUX.PDF(1).pdf"
+  className="btn-secondary"
+>
+  Download Resume
+</a>
 </div>
           </div>
 

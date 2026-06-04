@@ -39,7 +39,7 @@ const Hero = () => {
   </a>
 
 <a
-  href="https://arunadevivadivel.github.io/Portfolio/ARUNADEVI-UIUX.PDF(1).pdf"
+href="https://arunadevivadivel.github.io/aruna-portfolio/ARUNADEVI-UIUX.PDF(1).pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="btn-secondary"

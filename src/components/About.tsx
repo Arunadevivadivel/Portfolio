@@ -93,10 +93,15 @@ const About = () => {
               ))}
             </ul>
 
-            <a href="#" className="btn-primary inline-flex items-center gap-2">
-              <Download size={16} />
-              Download Resume
-            </a>
+            <a
+  href="https://arunadevivadivel.github.io/Portfolio/ARUNADEVI-UIUX.pdf.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-primary inline-flex items-center gap-2"
+>
+  <Download size={16} />
+  View Resume
+</a>
           </div>
         </div>
       </div>

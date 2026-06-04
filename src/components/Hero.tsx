@@ -1,6 +1,5 @@
 import { Star } from "lucide-react";
 import profileImage from "@/assets/aruna.jpg.jpeg";
-import resumePDF from "../assets/ARUNADEVI-UIUX.PDF(1).pdf";
 const brands = [{
   name: "Client A",
   logo: "Client A"
@@ -39,9 +38,9 @@ const Hero = () => {
     Contact Me
   </a>
 
- <a
-  href={resumePDF}
-  download="ARUNADEVI-UIUX.PDF(1).pdf"
+<a
+  href="/Portfolio/ARUNADEVI-UIUX.PDF(1).pdf"
+  download
   className="btn-secondary"
 >
   Download Resume

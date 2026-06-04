@@ -1,5 +1,5 @@
 import { Star } from "lucide-react";
-import profileImage from "@/assets/profile-hero.jpg";
+import profileImage from "@/assets/aruna.jpg.jpeg";
 const brands = [{
   name: "Client A",
   logo: "Client A"

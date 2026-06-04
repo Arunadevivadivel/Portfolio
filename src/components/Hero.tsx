@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto lg:ml-auto lg:mr-0">
               {/* Profile Image */}
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-card shadow-elevated">
-                <img alt="Arunadevi - UI/UX Designer" className="w-full h-full object-cover" src="/lovable-uploads/e750433d-619e-4303-90fd-fbaa46cf9105.jpg" />
+                <img alt="Arunadevi - UI/UX Designer" className="w-full h-full object-cover" src={profileImage} />
               </div>
               
               {/* Floating Review Badge */}

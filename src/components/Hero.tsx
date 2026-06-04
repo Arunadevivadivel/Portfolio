@@ -39,8 +39,9 @@ const Hero = () => {
   </a>
 
 <a
-  href="/Portfolio/ARUNADEVI-UIUX.PDF(1).pdf"
-  download
+  href="https://arunadevivadivel.github.io/Portfolio/ARUNADEVI-UIUX.PDF(1).pdf"
+  target="_blank"
+  rel="noopener noreferrer"
   className="btn-secondary"
 >
   Download Resume

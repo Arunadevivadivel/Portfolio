@@ -39,7 +39,7 @@ const Hero = () => {
   </a>
 
 <a
-  href="/Portfolio/ARUNADEVI-UIUX.PDF(1).pdf"
+href="/Portfolio/ARUNADEVI-UIUX.pdf"
   download
   className="btn-secondary"
 >

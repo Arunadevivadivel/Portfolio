@@ -44,7 +44,7 @@ const Hero = () => {
   rel="noopener noreferrer"
   className="btn-secondary"
 >
-  Download Resume
+  View Resume
 </a>
 </div>
           </div>
